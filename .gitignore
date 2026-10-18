@@ -73,3 +73,6 @@ Temporary Items
 *.tgz
 
 /.apt_generated/
+/.deployment/
+/.qa/
+/.local/
