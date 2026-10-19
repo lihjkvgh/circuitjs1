@@ -159,9 +159,9 @@ tasks.register('makeSite', Copy) {
 
     doLast {
         println "makeSite done. Checking site/circuitjs1:"
-        exec {
-            commandLine 'ls', '-la', 'site/circuitjs1'
-        }
+        def module = file('site/circuitjs1/circuitjs1.nocache.js')
+        if (!module.isFile()) throw new GradleException("Missing compiled GWT module: $module")
+        println "Compiled GWT module: $module"
     }
 }
 

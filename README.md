@@ -1,5 +1,7 @@
 # CircuitJS1
 
+Windows repair-learning deployment: [WINDOWS-REPAIR.md](WINDOWS-REPAIR.md).
+
 <p align="center">
   <img src="war/icon128.png" alt="CircuitJS1 logo" width="128" height="128">
   <br>
